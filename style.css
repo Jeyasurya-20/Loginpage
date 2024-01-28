@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(#0984e3, #81ecec);
+}
+
+.container {
+    width: 250px;
+    height: 200px;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.button-container button {
+    width: 48%;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.button-container #login-button {
+   
+    background-image: linear-gradient(#0984e3, #81ecec);
+
+    margin-right: 8px; /* Adjust margin as needed for space between buttons */
+}
+
+.button-container #signup-button {
+          
+    background-color: rgb(187, 186, 186);
+    margin-left: 8px; /* Adjust margin as needed for space between buttons */
+    
+}
+.button-container #signup-button:hover {
+    background-image: linear-gradient(#0984e3, #81ecec);
+ /* Change the color on hover */
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+
+.form-group #submit-button {
+    background-image: linear-gradient(#0984e3, #81ecec);
+ /* Use the color you want for the submit button */
+}
+
+.form-group #Register-button {
+    background-image: linear-gradient(#0984e3, #81ecec);
+ /* Use the color you want for the submit button */
+}
